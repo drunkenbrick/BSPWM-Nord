@@ -38,7 +38,7 @@ secondary = ${colors.cyan}
 alert =  ${colors.pink}
 
 [bar/example]
-monitor = ${env:MONITOR:LVDS1}
+monitor = ${env:MONITOR:LVDS-1}
 monitor-strict = false
 override-redirect = false
 width = 100%
