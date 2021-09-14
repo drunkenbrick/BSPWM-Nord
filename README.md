@@ -12,6 +12,7 @@ The current programs that are included in the setup are;
 * dunst
 * kitty
 * polybar
+* ranger
 * rofi
 * sxhkd
 * zathura
