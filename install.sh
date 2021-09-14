@@ -63,6 +63,8 @@ fi
 #Copying the config files to the correct locations
 if [ "$copyFiles" == 'y' ] || [ "$copyFiles" == 'Y' ]
 then 
+	mv BaseDots/dot.bashrc BaseDots/.bashrc
+
 	echo "Installing configs"
 	sudo cp -r BaseDots/bspwm ~/.config
 	sudo cp -r BaseDots/dunst ~/.config
