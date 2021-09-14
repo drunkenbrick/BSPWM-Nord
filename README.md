@@ -1,5 +1,5 @@
 # BSPWM Nord Theme
-
+This is a nord theme for the bspwm wm. The install script is designed for arch-based linux distros but you can still use most of the config files on any distro
 
 ## Table of contents
 * [Programs](#programs)
