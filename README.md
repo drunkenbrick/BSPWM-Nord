@@ -19,8 +19,8 @@ The current programs that are included in the setup are;
 ## Installation
 To install the program clone the repo then run install.sh
 ```
-$ git clone https://github.com/drunkenbrick/MainDots.git
-$ cd DotFiles
+$ git clone https://github.com/drunkenbrick/BSPWM-Nord.git
+$ cd BSPWM-Nord
 $ sudo chmod +X ./install.sh
 $ sudo ./instal.sh
 ```
