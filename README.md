@@ -22,7 +22,7 @@ To install the program clone the repo then run install.sh
 ```
 $ git clone https://github.com/drunkenbrick/BSPWM-Nord.git
 $ cd BSPWM-Nord
-$ sudo chmod +X ./install.sh
+$ sudo chmod +x ./install.sh
 $ sudo ./instal.sh
 ```
 Alternatively you can clone it and install the config files manually
