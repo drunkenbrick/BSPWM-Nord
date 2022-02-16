@@ -53,14 +53,10 @@ then
 	sudo pacman -S bspwm dunst kitty polybar rofi sxhkd zathura ranger
 
 	#creating bspwm locations
-	mkdir ~/.config/bspwm
-	mv /bspwm/examples/bspwmrc ~/.config/bspwm/bspwmrc
-	chmod +x ~/.config/bspwm/bspwmrc
+	sudo cp -r BaseDots/bspwm ~/.config
 
 	#creating sxhkd locations
-	mkdir ~/.config/sxhkd
-	mv /sxhkd/examples/sxhkdrc ~/.config/sxhkd/sxhkdrc
-	chmod +x ~/.config/sxhkd/sxhkdrc
+	sudo cp -r BaseDots/sxhkd ~/.config
 
 elif [ "$basePrograms" == "n" ] || [ "$basePrograms" == 'N' ]
 then
@@ -76,12 +72,11 @@ then
 	mv BaseDots/dot.bashrc BaseDots/.bashrc
 
 	echo "Installing configs"
-	sudo cp -r BaseDots/bspwm ~/.config
+	
 	sudo cp -r BaseDots/dunst ~/.config
 	sudo cp -r BaseDots/kitty ~/.config
 	sudo cp -r BaseDots/polybar ~/.config
 	sudo cp -r BaseDots/rofi ~/.config
-	sudo cp -r BaseDots/sxhkd ~/.config
 	sudo cp -r BaseDots/zathura ~/.config
 	sudo cp BaseDots/.bashrc ~
 	sudo cp -r BaseDots/ranger ~/.config
