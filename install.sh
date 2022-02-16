@@ -52,6 +52,16 @@ then
 	echo "Installing base programs"
 	sudo pacman -S bspwm dunst kitty polybar rofi sxhkd zathura ranger
 
+	#creating bspwm locations
+	mkdir ~/.config/bspwm
+	mv /bspwm/examples/bspwmrc ~/.config/bspwm/bspwmrc
+	chmod +x ~/.config/bspwm/bspwmrc
+
+	#creating sxhkd locations
+	mkdir ~/.config/sxhkd
+	mv /sxhkd/examples/sxhkdrc ~/.config/sxhkd/sxhkdrc
+	chmod +x ~/.config/sxhkd/sxhkdrc
+
 elif [ "$basePrograms" == "n" ] || [ "$basePrograms" == 'N' ]
 then
 	echo "Skipping install of base programs"
