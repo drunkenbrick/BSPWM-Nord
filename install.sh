@@ -3,7 +3,7 @@
 readyToInstall=no
 
 #Installing required programs
-#Testing123
+
 
 while [[ "$readyToInstall" != "Y" ]] 
 do
